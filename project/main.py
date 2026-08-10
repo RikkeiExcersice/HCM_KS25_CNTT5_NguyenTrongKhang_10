@@ -3,7 +3,7 @@ from database import Base, get_db
 from sqlalchemy import engine
 from sqlalchemy.orm import Session
 from schemas.ticket import *
-from models.ticket import *
+
 app = FastAPI()
 
 
